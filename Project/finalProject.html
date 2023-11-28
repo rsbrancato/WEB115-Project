@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <h1 class="Heading">Weekly Meal Plan Mo-Su</h1>
+            <div class="form">
+                <div class="form-element">
+                    <label for="breakfast">Breakfast</label>
+                    <input type="text" name="Breakfast" id="Breakfast" required></br>
+                </div>
+                <div class="form-element">
+                    <label for="Snack">SnackOne</label>
+                    <input type="text" name="Snack" id="Snack" required></br>
+                </div>
+                <div class="form-element">
+                    <label for="Lunch">Lunch</label>
+                    <input type="text" name="Lunch" id="Lunch" required></br>
+                </div>
+                <div class="form-element">
+                    <label for="Snack">SnackTwo</label>
+                    <input type="text" name="Snack" id="Snack" required></br>
+                </div>
+                <div class="form-element">
+                    <label for="Dinner">Dinner</label>
+                    <input type="text" name="Dinner" id="Dinner" required></br>
+                </div>
+                <div class="form-element">
+                    <label for="Name">Name</label>
+                    <input type="text" name="Dinner" id="Name"  required></br>
+                <div class="form-element">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" required></br>
+                </div>
+                <div class="form-element">
+                    <label for="Goal">Goal For the Week</label>
+                    <textarea name="Goal" id="Goal" row="3" required></textarea></br>
+                </div>
+                <div class="buttons">
+                    <button type="submit" onclick="build()" class="Build-button">Create Mealplan</button>
+                    <button type="reset" onclick = "reset()" class="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="entry-table">
+            <h1>Mealplan</h1>
+            <table></table>
+        </div>
+    </div>
+    <script src="projectJS.js"></script>
+</body>
+</html>
